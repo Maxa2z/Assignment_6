@@ -16,7 +16,7 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="#courses">Courses</a></li>
-        <li><a href="#about">About Us</a></li>
+        <li><a href="about.html">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="login.html" class="btn-login">Login</a></li>
       </ul>
@@ -26,12 +26,14 @@
     <div id="login-container">
       <section class="login-section">
         <h2>Login</h2>
-        <form id="loginForm">
+        <form id="loginForm" action="/login_in">
           <label for="login-email">Email:</label>
-          <input type="email" id="login-email" required />
+          <!-- required type="email" -->
+          <input type="email" id="login-email"  />
 
           <label for="login-password">Password:</label>
-          <input type="password" id="login-password" required minlength="6" />
+          <!-- required minlength="6"  -->
+          <input type="password" id="login-password" />
 
           <button type="submit">Login</button>
 
